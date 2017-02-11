@@ -25,13 +25,13 @@
 
 The I2C and SPI interfaces each require some additional configuration and initialization.
 
-(/images/pin-labels-on-pi-ver2.png)
+![alt tag](https://github.com/kenfting/IoT/blob/master/images/pin-labels-on-pi-ver2.png)
 Pi Serial Bus Pins
 
-(/images/pin-labels-on-wedge.png)
+![alt tag](https://github.com/kenfting/IoT/blob/master/images/pin-labels-on-wedge.png)
 Wedge Serial Bus Pins
 
-(/images/bplus-gpio.png)
+![alt tag](https://github.com/kenfting/IoT/blob/master/images/bplus-gpio.png)
 Schematic snippet for 40-Pin GPIO connector (J8)
 
 ## Reference
