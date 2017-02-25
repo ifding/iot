@@ -1,9 +1,8 @@
-# Raspberry-Pi
-
+Raspberry Pi Basic
 =========
 >02-10-2017
 
-## Terminology
+#### Terminology
 
 * GPIO - General Purpose Input/Output, many third party add-on boards that attach to the Raspberry Pi and extend its functionality: motor controllers, LEDs, buttons, sensors, microcontrollers, LCDs, ADCs and DACs.
 
@@ -19,7 +18,7 @@
 
 * SPI - Serial Peripheral Interface (SPI) a cousin of I2C with similar applications. SPI on the Pi allows for up to two attached devices, while I2C potentially allows for many devices, as long as their addresses don't conflict.
 
-## Connecting To the Ports
+#### Connecting To the Ports
 
 * 40-pin connector
 
@@ -34,6 +33,6 @@ Wedge Serial Bus Pins
 ![alt tag](https://github.com/kenfting/IoT/blob/master/images/bplus-gpio.png)
 Schematic snippet for 40-Pin GPIO connector (J8)
 
-## Reference
+#### Reference
 
-*[Raspberry Pi SPI and I2C Tutorial](https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial)
+* [Raspberry Pi SPI and I2C Tutorial](https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial)
