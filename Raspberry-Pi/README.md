@@ -6,9 +6,10 @@ Raspberry Pi
 
 > This list is a collection of tools, projects and resources
 
-* [Rasp-Pi basic knowlegehere](/Rasp-Pi-basic.md)
+* [Rasp-Pi basic knowlegehere](/Raspberry-Pi/Rasp-Pi-basic.md)
 
-* [Rasp-Pi setup](/Rasp-Pi-setup.md)
+* [Rasp-Pi setup](/Raspberry-Pi/Rasp-Pi-setup.md)
+
 
 #### Contents
 
