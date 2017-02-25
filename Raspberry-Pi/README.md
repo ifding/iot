@@ -13,19 +13,19 @@ Raspberry Pi
 * [Rasp-Pi website](https://raspberrypi.org)
 
 
-#### Contents
+#### Content
 
-- [OS Images](###os-images)
-- [Tools](###tools)
-- [Projects](###projects)
-- [Resources](###resources)
+- OS Images
+- Tools
+- Projects
+- Resources
 
 #### OS Images
 
 - [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) - The official supported Raspberry Pi OS, based on Debian and available as a lite version.
 - [NOOBS](https://www.raspberrypi.org/downloads/noobs/) - New Out Of the Box Software, an easy OS installer for beginners.
 - [Ubuntu MATE](https://ubuntu-mate.org/raspberry-pi/) - Ubuntu distribution for the Raspberry Pi based on MATE desktop. 
-- [Snappy Ubuntu Core](https://developer.ubuntu.com/en/snappy/start/raspberry-pi-2/) - Official (minimal) Ubuntu distribution for IoT. ![Supports Raspberry Pi 2+](/media/badges/rpi-2+.png)
+- [Snappy Ubuntu Core](https://developer.ubuntu.com/en/snappy/start/raspberry-pi-2/) - Official (minimal) Ubuntu distribution for IoT.
 - [Windows 10 IoT Core](https://developer.microsoft.com/nl-nl/windows/iot/Downloads.htm) - Windows 10 distribution for IoT.
 - [HypriotOS](http://blog.hypriot.com/about/) - Minimal Debian-based operating system, optimized to run Docker.
 - [Kali Linux](https://www.offensive-security.com/kali-linux-arm-images/) - Penetration Testing & Ethical Hacking Linux distro for ARM devices.
