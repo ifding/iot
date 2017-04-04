@@ -1,4 +1,4 @@
-# Ranlink Toolchain
+# Ralink Toolchain
 
 ### 1. Install Build Tools
 
