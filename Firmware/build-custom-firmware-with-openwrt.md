@@ -15,7 +15,7 @@ You need to install necessary dev tools:
 sudo apt-get install subversion build-essential libncurses5-dev zlib1g-dev gawk git ccache gettext libssl-dev xsltproc wget
 ```
 
-### 2.Download the OpenWrt image builder
+### 2. Download the OpenWrt image builder
 
 First you need to determine the deivce platform, i.e. the CPU architecture, MIPS or ARM etc.
 
@@ -34,7 +34,7 @@ tar -xf OpenWrt-ImageBuilder-15.05.1-ar71xx-generic.Linux-x86_64.tar.bz2 -C ~/
 cd ~/OpenWrt-ImageBuilder
 ```
 
-### 3.Choose which packages to add and remove
+### 3. Choose which packages to add and remove
 
 If you want to remove the **LuCI** and related packages to build OpenWrt custom firmware, below the package list:
 
@@ -47,7 +47,7 @@ luci-proto-ppp luci-theme-bootstrap uhttpd uhttpd-mod-ubus
 
 You can safely remove all IPv6 related packages to save some free space.
 
-### 4.Build the installable OpenWrt image
+### 4. Build the installable OpenWrt image
 
 The **PACKAGES** variable is used to add or remove the packages to the final build, add a minus(-) sign before the package you want to exclude.
 
@@ -77,9 +77,10 @@ make image PROFILE=TLWR740 PACKAGES="-dnsmasq -ip6tables -ppp \
  openvpn-openssl n2n muninlite" FILES=files/
 ````
 
-When the build is complete you can get the flashable OpenWrt images under the image builder's bin folder, `~/OpenWrt-ImageBuilder/bin/ar71xx/`
+When the build is complete you can get the flashable OpenWrt images under the image builder's bin folder, 
+`~/OpenWrt-ImageBuilder/bin/ar71xx/`
 
-### 5.Before flashing the OpenWrt custom firmware
+### 5. Before flashing the OpenWrt custom firmware
 
 Check the size of the flashable bin file, the **squashfs factory** image is around 3.8 MB for routers with 4 MB flash, precisely 3932160 bytes, double check it before flashing.
 
