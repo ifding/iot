@@ -1,7 +1,7 @@
 # What is an Arduino?
 
-* Created by iFDING.
-* Create Date: 03/11/2017
+>Created by iFDING.
+>Create Date: 03/11/2017
 
 <div class="message">
 <b>Reader beware:</b> Arduino conists of both a physical programmable circuit board(microcontroller) and a piece of software, or IDE that runs on pc, used to write and upload code to the physical board.
@@ -62,3 +62,7 @@ IC or Integrated Circuit (13), as the brains of Arduino, usually from the ATmega
 * Voltage Regulator
 
 Voltage Regulator (14): it controls the amount of voltage that is let inot the Arduino board. 
+
+### Reference
+
+* [https://learn.sparkfun.com/tutorials/what-is-an-arduino](https://learn.sparkfun.com/tutorials/what-is-an-arduino)

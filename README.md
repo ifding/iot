@@ -10,14 +10,16 @@
 
 * [Arduino](/arduino/README.md)
 
+
+
 ### Basics
 
 * [Serial Communication](https://learn.sparkfun.com/tutorials/serial-communication)
 * [Analog vs. Digital](https://learn.sparkfun.com/tutorials/analog-vs-digital)
 
-### Firmware(./firmware/README.md)
+### [Firmware](./firmware/README.md)
 
-### Security(./security/README.md)
+### [Security](./security/README.md)
 
 ### Protocols
  

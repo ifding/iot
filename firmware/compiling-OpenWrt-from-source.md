@@ -149,7 +149,10 @@ You should now reflash your routeur with the new firmware image. The simplest wa
 flash memory is to:
 - copy the new trx image to your routeur's /tmp (using wget or scp)
 - run this command (on the device) -- replace <newfile.trx> with your actual filename:
+
+```
  root@OpenWrt:~# mtd -r write <newfile.trx> linux
+```
 
 WARNING: this will erase your existing configuration on the routeur. 
 In case you need to save it, you may try the sysupgrade command instead.
@@ -158,11 +161,17 @@ This will reboot the device after writing the new image file.
 Afterwards, if you have set up the http server on your development machine properly 
 (let's assume it has IP address 192.168.1.5)
 you can run the following command on your router:
+
+```
  root@OpenWrt:~# echo "src/gz mydev http://192.168.1.5/openwrt/packages" >> /etc/opkg.conf 
  root@OpenWrt:~# opkg update
+```
 
 Install the newly compiled packages with:
+
+```
  root@OpenWrt:~# opkg install kmod-ipv6 hostapd libpthread sctp
+```
 
 ### 3. Prerequisites for Compiling OpenWrt
 
