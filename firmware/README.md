@@ -2,15 +2,14 @@
 
 ### OpenWrt
 
-* [How to create a firmware](how-to-create-a-firmware.md)
-* [buildroot](compiling-OpenWrt-from-source.md)
-* SDK
-* [Image Builder](build-custom-firmware-with-openwrt.md)
+* [How to create a firmware: three options](how-to-create-a-firmware.md)
+* [buildroot: compiling-OpenWrt](compiling-OpenWrt-from-source.md)
+* [SDK: compiling helloworld](compiling-helloworld-for-openwrt.md)
+* [Image Builder: build custom firmware](build-custom-firmware-with-openwrt.md)
 
 ### Ralink
 
-* [Ralink SDK](install-build-tools-Ralink.md)
-
+* [Install buildtools for Ralink](install-build-tools-Ralink.md)
 
 ### Operation
 
