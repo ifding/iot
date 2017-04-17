@@ -26,3 +26,8 @@
 3. And then install it: `./scripts/feeds install librdkafa`
 
 4. Now your package should be aviable when you do: `make menuconfig`
+
+### Cross Compile
+
+- [C/C++ Building and Remote Debugging with Eclipse](http://www.black-swift.com/wiki/index.php?title=C/C%2B%2B_Building_and_Remote_Debugging_with_Eclipse)
+
