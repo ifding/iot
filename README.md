@@ -32,4 +32,4 @@
 
 ### Raspberry Pi
 * [using-nmap-scan-network](rasp-pi/using-nmap-scan-network.md)
-
+* [Creating a virtual desktop from your laptop using SSH and VNC](rasp-pi/creating-a-virtual-desktop-from-your-laptop.md)
