@@ -22,6 +22,7 @@
 ### Basics
 * [Serial Communication](https://learn.sparkfun.com/tutorials/serial-communication)
 * [Analog vs. Digital](https://learn.sparkfun.com/tutorials/analog-vs-digital)
+* [Analog to Digital Converter](./adc/README.md)
 
 ### [Firmware](./firmware/README.md)
 * [introduction-tftp](firmware/introduction-tftp.md)

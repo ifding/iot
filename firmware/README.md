@@ -1,5 +1,10 @@
 # Firmware
 
+### Flush firmware
+
+`sudo screen /dev/ttyUSB0 57600`
+
+
 ### OpenWrt
 
 - [How to create a firmware: three options](how-to-create-a-firmware.md)
