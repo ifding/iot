@@ -13,9 +13,8 @@
 > This list is a collection of IoT Devices:
 
 * [Rasp-Pi](/rasp-pi/README.md)
-
 * [Arduino](/arduino/README.md)
-
+* [Digilent Analog Discovery 2](/DAD/README.md)
 * [OpenWrt](https://openwrt.org/)
 
 
