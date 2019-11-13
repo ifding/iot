@@ -1,0 +1,24 @@
+Mem: 17168K used, 10348K free, 0K shrd, 0K buff, 9156K cached
+CPU:   9% usr   1% sys   0% nice  88% idle   0% io   0% irq   0% softirq
+Load average: 0.22 0.13 0.05
+  PID  PPID USER     STAT   VSZ %MEM %CPU COMMAND
+  677     1 admin    S     2364   9%   6% pcmcmd -s -q 8000 -x 15 
+ 1011     1 admin    S     2008   7%   0% /bin/sh /mydlink/mydlink-watch-dog.sh
+  942   876 admin    R     1996   7%   0% top 
+ 1090  1011 admin    S     3400  12%   0% /mydlink/signalc 
+  812     1 admin    R     2116   8%   0% uvc_stream -b 
+  876     1 admin    S     2000   7%   0% -sh 
+  763     1 admin    S     2000   7%   0% udev 
+  764   763 admin    S     2000   7%   0% udev 
+  767   764 admin    S     2000   7%   0% udev 
+  769   764 admin    S     2000   7%   0% udev 
+    1     0 admin    S     1992   7%   0% init  
+  814     1 admin    S     1988   7%   0% udhcpc -i br0 -s /sbin/udhcpc.sh -p /
+ 1357     1 admin    S     1988   7%   0% zcip -vf br0 zcip.sh 
+ 1376  1011 admin    S     1988   7%   0% sleep 5 
+  727     1 admin    S     1896   7%   0% alphapd 
+  750     1 admin    S     1500   5%   0% lanconfig 
+ 1072  1011 admin    S     1480   5%   0% /mydlink/dcp -i br0 -m DCS-934L 
+  743     1 admin    S     1420   5%   0% schedule 
+  650     1 admin    S     1400   5%   0% nvram_daemon 
+  755     1 admin    S     1332   5%   0% mydlinkevent 

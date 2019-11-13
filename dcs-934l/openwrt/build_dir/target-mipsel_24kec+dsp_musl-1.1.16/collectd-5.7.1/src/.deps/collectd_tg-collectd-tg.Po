@@ -1,0 +1,113 @@
+collectd_tg-collectd-tg.o: collectd-tg.c \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/stdc-predef.h \
+ config.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/errno.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/features.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/sys/glibc-types.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/sys/cdefs.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/errno.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/math.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/alltypes.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/signal.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/signal.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/stdio.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/stdio.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/fortify-headers.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/stdlib.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/stdlib.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/alloca.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/limits.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/limits.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/string.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/string.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/strings.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/strings.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/sys/time.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/sys/select.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/sys/select.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/time.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/unistd.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/unistd.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/posix.h \
+ daemon/utils_heap.h libcollectdclient/collectd/client.h \
+ libcollectdclient/collectd/lcc_features.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/stdint.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/stdint.h \
+ /home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/inttypes.h \
+ libcollectdclient/collectd/network.h libcollectdclient/collectd/client.h
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/stdc-predef.h:
+
+config.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/errno.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/features.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/sys/glibc-types.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/sys/cdefs.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/errno.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/math.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/alltypes.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/signal.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/signal.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/stdio.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/stdio.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/fortify-headers.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/stdlib.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/stdlib.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/alloca.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/limits.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/limits.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/string.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/string.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/strings.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/strings.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/sys/time.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/sys/select.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/sys/select.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/time.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/fortify/unistd.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/unistd.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/posix.h:
+
+daemon/utils_heap.h:
+
+libcollectdclient/collectd/client.h:
+
+libcollectdclient/collectd/lcc_features.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/stdint.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/bits/stdint.h:
+
+/home/tiger/Downloads/openwrt/staging_dir/toolchain-mipsel_24kec+dsp_gcc-5.3.0_musl-1.1.16/include/inttypes.h:
+
+libcollectdclient/collectd/network.h:
+
+libcollectdclient/collectd/client.h:

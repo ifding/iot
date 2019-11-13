@@ -1,0 +1,8 @@
+Package: librdkafka
+Version: 0.9.5
+Depends: libc, libpthread, zlib, librt, libcrypto, libopenssl
+Source: feeds/librdkafka/librdkafka
+Section: libs
+Architecture: ramips
+Installed-Size: 208939
+Description:  Apache Kafka C library

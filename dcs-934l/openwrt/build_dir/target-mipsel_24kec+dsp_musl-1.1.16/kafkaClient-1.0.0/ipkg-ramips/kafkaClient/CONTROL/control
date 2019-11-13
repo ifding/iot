@@ -1,0 +1,8 @@
+Package: kafkaClient
+Version: 1.0.0-1
+Depends: libc, librdkafka, libatomic
+Source: package/kafkaClient
+Section: utils
+Architecture: ramips
+Installed-Size: 7553
+Description:  Apache Kafka C client to produce message, containing both Producer and Consumer support.

@@ -1,0 +1,13 @@
+#!/bin/sh /etc/rc.common
+
+START=60
+STOP=60
+
+start() {
+  /usr/bin/lightSensor-daemon
+}
+
+stop() {
+  kill `pidof lightSensor-daemon`
+}
+

@@ -1,0 +1,237 @@
+U-Boot 1.1.4 (Build from LSDK-9.5.3.16 at May 19 2014 - 14:55:43)
+
+ap143 - Honey Bee 1.1
+
+DRAM:	32MB
+Flash Manuf Id 0xef, DeviceId0 0x40, DeviceId1 0x16
+Flash:  4 MB
+Using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Net:   ath_gmac_enet_initialize...
+ath_gmac_enet_initialize: reset mask:0xc02200
+Scorpion ---->S27 PHY*
+S27 reg init
+GMAC: cfg1 0x800c0000 cfg2 0x7114
+eth0: ba:be:fa:ce:08:41
+athrs27_phy_setup ATHR_PHY_CONTROL 4:0x1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 4:0x10
+eth0 up
+Honey Bee ---->  MAC 1 S27 PHY*
+S27 reg init
+ATHRS27: resetting s27
+ATHRS27: s27 reset done
+GMAC: cfg1 0x800c0000 cfg2 0x7214
+eth1: ba:be:fa:ce:08:41
+athrs27_phy_setup ATHR_PHY_CONTROL 0:0x1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 0:0x10
+athrs27_phy_setup ATHR_PHY_CONTROL 1:0x1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 1:0x10
+athrs27_phy_setup ATHR_PHY_CONTROL 2:0x1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 2:0x10
+athrs27_phy_setup ATHR_PHY_CONTROL 3:0x1000
+athrs27_phy_setup ATHR_PHY_SPEC_STAUS 3:0x10
+eth1 up
+eth0, eth1
+Setting 0x181162c0 to 0x60c1a100
+Autobooting in 1 seconds
+## Booting image at 9f020000 ...
+   Uncompressing Kernel Image ... OK
+
+Starting kernel ...
+
+Booting QCA953x
+[    0.000000] Linux version 2.6.31 (tplink@localhost.localdomain) (gcc version 4.3.3 (GCC) ) #30 Mon May 19 14:58:45 CST 2014
+[    0.000000] flash_size passed from bootloader = 4
+[    0.000000] Ram size passed from bootloader =33554432
+[    0.000000] CPU revision is: 00019374 (MIPS 24Kc)
+[    0.000000] ath_sys_frequency: cpu apb ddr apb cpu 400 ddr 400 ahb 200
+[    0.000000] Determined physical RAM map:
+[    0.000000]  memory: 02000000 @ 00000000 (usable)
+[    0.000000] Zone PFN ranges:
+[    0.000000]   Normal   0x00000000 -> 0x00002000
+[    0.000000] Movable zone start PFN for each node
+[    0.000000] early_node_map[1] active PFN ranges
+[    0.000000]     0: 0x00000000 -> 0x00002000
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 8128
+[    0.000000] Kernel command line: console=ttyS0,115200 root=31:2 rootfstype=squashfs init=/sbin/init mtdparts=ath-nor0:128k(u-boot),1024k(kernel),2816k(rootfs),64k(config),64k(art) mem=32M
+[    0.000000] PID hash table entries: 128 (order: 7, 512 bytes)
+[    0.000000] Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Primary instruction cache 64kB, VIPT, 4-way, linesize 32 bytes.
+[    0.000000] Primary data cache 32kB, 4-way, VIPT, cache aliases, linesize 32 bytes
+[    0.000000] Writing ErrCtl register=00000000
+[    0.000000] Readback ErrCtl register=00000000
+[    0.000000] Memory: 24200k/32768k available (1558k kernel code, 8568k reserved, 379k data, 108k init, 0k highmem)
+[    0.000000] NR_IRQS:128
+[    0.000000] plat_time_init: plat time init done
+[    0.000000] Calibrating delay loop... 266.24 BogoMIPS (lpj=532480)
+[    0.096000] Mount-cache hash table entries: 512
+[    0.096000] 
+[    0.096000] ****************ALLOC***********************
+[    0.096000]  Packet mem: 80211220 (0x600000 bytes)
+[    0.096000] ********************************************
+[    0.096000] 
+[    0.096000] NET: Registered protocol family 16
+[    0.104000] bio: create slab <bio-0> at 0
+[    0.108000] NET: Registered protocol family 2
+[    0.108000] IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.108000] TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+[    0.108000] TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.108000] TCP: Hash tables configured (established 1024 bind 1024)
+[    0.108000] TCP reno registered
+[    0.108000] NET: Registered protocol family 1
+[    0.108000] ATH GPIOC major 0
+[    0.108000] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.108000] msgmni has been set to 47
+[    0.112000] io scheduler noop registered
+[    0.112000] io scheduler deadline registered (default)
+[    0.112000] Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+[    0.112000] serial8250.0: ttyS0 at MMIO 0xb8020000 (irq = 19) is a 16550A
+[    0.112000] console [ttyS0] enabled
+[    0.380000] PPP generic driver version 2.4.2
+[    0.388000] NET: Registered protocol family 24
+[    0.392000] 5 cmdlinepart partitions found on MTD device ath-nor0
+[    0.400000] Creating 5 MTD partitions on "ath-nor0":
+[    0.404000] 0x000000000000-0x000000020000 : "u-boot"
+[    0.408000] 0x000000020000-0x000000120000 : "kernel"
+[    0.416000] 0x000000120000-0x0000003e0000 : "rootfs"
+[    0.424000] 0x0000003e0000-0x0000003f0000 : "config"
+[    0.428000] 0x0000003f0000-0x000000400000 : "art"
+[    0.436000] ->Oops: flash id 0xef4016 . 
+[    0.440000] Ooops, why the devices couldn't been initialed?
+[    0.444000] TCP cubic registered
+[    0.448000] NET: Registered protocol family 17
+[    0.452000] 802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+[    0.460000] All bugs added by David S. Miller <davem@redhat.com>
+[    0.468000] athwdt_init: Registering WDT success
+[    0.476000] VFS: Mounted root (squashfs filesystem) readonly on device 31:2.
+[    0.484000] Freeing unused kernel memory: 108k freed
+init started:  BusyBox v1.01 (2014.05.19-07:02+0000) multi-call binary
+This Board use 2.6.31
+[    1.688000] xt_time: kernel timezone is -0000
+[    1.872000] nf_conntrack version 0.5.0 (512 buckets, 5120 max)
+[    2.316000] ip_tables: (C) 2000-2006 Netfilter Core Team
+insmod: cannot open module `/lib/modules/2.6.31/kernel/iptable_raw.ko': No such file or directory
+insmod: cannot open module `/lib/modules/2.6.31/kernel/flashid.ko': No such file or directory
+[    2.748000] PPPoL2TP kernel driver, V1.0
+[    2.776000] PPTP driver version 0.8.3
+insmod: cannot open module `/lib/modules/2.6.31/kernel/harmony.ko': No such file or directory
+insmod: cannot open module `/lib/modules/2.6.31/kernel/af_key.ko': No such file or directory
+insmod: cannot open module `/lib/modules/2.6.31/kernel/xfrm_user.ko': No such file or directory
+insmod: cannot open module `/lib/modules/2.6.31/kernel/xt_mark.ko': No such file or directory
+/proc/sys/vfs_cac[    3.800000] Now flash open!
+[    3.804000] Now flash open!
+
+[    4.044000] qca955x_GMAC: Length per segment 1536
+[    4.048000] 953x_GMAC: qca953x_gmac_attach
+[    4.052000] Link Int Enabled 
+[    4.056000] qca953x_set_gmac_caps  CHECK DMA STATUS 
+[    4.060000] mac:1 Registering S27....
+[    4.064000] qca955x_GMAC: RX TASKLET - Pkts per Intr:32
+[    4.072000] qca955x_GMAC: Max segments per packet :   1
+[    4.076000] qca955x_GMAC: Max tx descriptor count :   512
+[    4.084000] qca955x_GMAC: Max rx descriptor count :   128
+[    4.088000] qca955x_GMAC: Mac capability flags    :   2D81
+[    4.096000] 953x_GMAC: qca953x_gmac_attach
+[    4.100000] Link Int Enabled 
+[    4.100000] qca953x_set_gmac_caps  CHECK DMA STATUS 
+[    4.108000] mac:0 Registering S27....
+[    4.112000] qca955x_GMAC: RX TASKLET - Pkts per Intr:32
+ (none) mips #30[    4.120000] qca955x_GMAC: Max segments per packet :   1
+ Mon May 19 14:5[    4.124000] qca955x_GMAC: Max tx descriptor count :   512
+8:45 CST 2014 (n[    4.132000] qca955x_GMAC: Max rx descriptor count :   128
+one)
+(none) log[    4.140000] qca955x_GMAC: Mac capability flags    :   2581
+in: [    4.760000] athr_gmac_ring_alloc Allocated 8192 at 0x81cc4000
+[    4.764000] athr_gmac_ring_alloc Allocated 2048 at 0x81caa000
+[    5.072000] HONEYBEE ----> S27 PHY MDIO
+[    5.076000] ATHRS27: resetting s27
+[    5.180000] ATHRS27: s27 reset done
+[    5.196000] ++++ athrs27_igmp_setup once
+[    5.200000] port0 vid is 0xb000b
+[    5.204000] port1 vid is 0x30003
+[    5.208000] port2 vid is 0x50005
+[    5.212000] port3 vid is 0x70007
+[    5.216000] port4 vid is 0x90009
+[    5.220000] ++ PVID: 0x0000000b, bitmap: 0x0000001f
+[    5.232000] ++ PVID: 0x00000003, bitmap: 0x0000001f
+[    5.240000] ++ PVID: 0x00000005, bitmap: 0x0000001f
+[    5.252000] ++ PVID: 0x00000007, bitmap: 0x0000001f
+[    5.264000] ++ PVID: 0x00000009, bitmap: 0x0000001f
+[    5.272000] vtable vid: 0x00000002, bitmap 0x00000003
+[    5.280000] vtable vid: 0x00000004, bitmap 0x00000005
+[    5.288000] vtable vid: 0x00000006, bitmap 0x00000007
+[    5.296000] vtable vid: 0x00000008, bitmap 0x00000009
+[    5.304000] vtable vid: 0x0000000a, bitmap 0x0000000b
+[    5.312000] vtable vid: 0x0000000c, bitmap 0x0000000d
+[    5.320000] vtable vid: 0x0000000e, bitmap 0x0000000f
+[    5.328000] vtable vid: 0x00000010, bitmap 0x00000011
+[    5.336000] vtable vid: 0x00000012, bitmap 0x00000013
+[    5.344000] vtable vid: 0x00000014, bitmap 0x00000015
+[    5.352000] vtable vid: 0x00000016, bitmap 0x00000017
+[    5.364000] vtable vid: 0x00000018, bitmap 0x00000019
+[    5.372000] vtable vid: 0x0000001a, bitmap 0x0000001b
+[    5.380000] vtable vid: 0x0000001c, bitmap 0x0000001d
+[    5.392000] vtable vid: 0x0000001e, bitmap 0x0000001f
+[    5.400000] vtable vid: 0x00000020, bitmap 0x00000021
+[    5.408000] Setting Drop CRC Errors, Pause Frames and Length Error frames 
+[    5.412000] Setting PHY...
+[    5.864000] athr_gmac_ring_alloc Allocated 8192 at 0x81c4e000
+[    5.868000] athr_gmac_ring_alloc Allocated 2048 at 0x81ea2000
+[    6.176000] HONEYBEE ----> S27 PHY MDIO
+[    6.180000] Setting Drop CRC Errors, Pause Frames and Length Error frames 
+[    6.188000] Setting PHY...
+[    6.828000] device eth0 entered promiscuous mode
+[    6.860000] athr_gmac_ring_free Freeing at 0x81c4e000
+[    6.860000] athr_gmac_ring_free Freeing at 0x81ea2000
+[    6.896000] athr_gmac_ring_alloc Allocated 8192 at 0x81c66000
+[    6.904000] athr_gmac_ring_alloc Allocated 2048 at 0x81ea2000
+[    7.208000] HONEYBEE ----> S27 PHY MDIO
+[    7.212000] Setting Drop CRC Errors, Pause Frames and Length Error frames 
+[    7.220000] Setting PHY...
+[    7.852000] Now flash open!
+[    7.868000] athr_gmac_ring_free Freeing at 0x81cc4000
+[    7.868000] athr_gmac_ring_free Freeing at 0x81caa000
+[    7.904000] athr_gmac_ring_alloc Allocated 8192 at 0x81c50000
+[    7.908000] athr_gmac_ring_alloc Allocated 2048 at 0x81caa000
+[    8.216000] HONEYBEE ----> S27 PHY MDIO
+[    8.220000] Setting Drop CRC Errors, Pause Frames and Length Error frames 
+[    8.228000] Setting PHY...
+[   13.704000] nf_conntrack_rtsp v0.6.21 loading
+[   13.728000] nf_nat_rtsp v0.6.21 loading
+[   13.940000] adf: module license 'Proprietary' taints kernel.
+[   13.944000] Disabling lock debugging due to kernel taint
+[   14.596000] ath_hal: 0.9.17.1 (AR5416, AR9380, REGOPS_FUNC, WRITE_EEPROM, 11D)
+[   14.636000] ath_rate_atheros: Copyright (c) 2001-2005 Atheros Communications, Inc, All Rights Reserved
+[   14.944000] ath_dev: Copyright (c) 2001-2007 Atheros Communications, Inc, All Rights Reserved
+[   15.692000] ath_ahb: 9.5.3.16 (Atheros/multi-bss)
+[   15.704000] Enterprise mode: 0x03fc0000
+[   15.712000] Restoring Cal data from Flash
+[   15.720000] ath_get_caps[5847] rx chainmask mismatch actual 3 sc_chainmak 0
+[   15.728000] ath_get_caps[5822] tx chainmask mismatch actual 3 sc_chainmak 0
+[   15.748000] wifi0: Atheros ???: mem=0xb8100000, irq=2
+[   15.752000] ath_pci: 9.5.3.16 (Atheros/multi-bss)
+[   15.976000] 	DCS for CW interference mitigation:   0
+[   15.976000] 	DCS for WLAN interference mitigation: 0
+[   16.020000] VAP device ath0 created 
+[   16.268000]  
+[   16.268000]  DES SSID SET=TP-LINK_20F71E 
+[   16.284000]  ieee80211_ioctl_siwmode: imr.ifm_active=131712, new mode=3, valid=1 
+[   16.488000]  Scan in progress.. Cancelling it 
+[   19.868000] Channel 1 average beacon RSSI 14 noisefloor -119  ieee80211_acs_find_best_11ng_centerchan chan: 1 beacon RSSI + weighted noisefloor: -224
+[   19.884000] Channel 6 average beacon RSSI 8 noisefloor -117  ieee80211_acs_find_best_11ng_centerchan chan: 6 beacon RSSI + weighted noisefloor: -226
+[   19.896000] Channel 6 average beacon RSSI 8 noisefloor -117  ieee80211_acs_find_best_11ng_centerchan chan: 6 beacon RSSI + weighted noisefloor: -226
+[   19.912000] Channel 11 average beacon RSSI 11 noisefloor -119  ieee80211_acs_find_best_11ng_centerchan chan: 11 beacon RSSI + weighted noisefloor: -227
+[   19.924000] ieee80211_acs_find_best_11ng_centerchan found best 11ng center chan: 11 rssi: -227
+[   22.252000] device ath0 entered promiscuous mode
+[   22.256000] br0: port 2(ath0) entering forwarding state
+[   22.872000]  ieee80211_ioctl_siwmode: imr.ifm_active=1442432, new mode=3, valid=1 
+[   22.892000] br0: port 2(ath0) entering disabled state
+[   22.912000]  
+[   22.912000]  DES SSID SET=TP-LINK_20F71E 
+[   22.940000] br0: port 2(ath0) entering forwarding state
+[   25.620000] qca955x_GMAC: GE0 RX DMA ENABLE
+

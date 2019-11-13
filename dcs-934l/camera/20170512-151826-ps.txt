@@ -1,0 +1,38 @@
+root@OpenWrt:~# ps
+  PID USER       VSZ STAT COMMAND
+    1 root      1528 S    /sbin/procd
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    5 root         0 SW<  [kworker/0:0H]
+    7 root         0 SW   [kworker/u2:1]
+   38 root         0 SW   [kworker/u2:2]
+   39 root         0 SW<  [writeback]
+   68 root         0 SW<  [crypto]
+   70 root         0 SW<  [bioset]
+   71 root         0 SW<  [kblockd]
+   73 root         0 SW   [kworker/0:1]
+  103 root         0 SW   [kswapd0]
+  129 root         0 SW   [fsnotify_mark]
+  160 root         0 SW   [spi0]
+  183 root         0 SW<  [bioset]
+  188 root         0 SW<  [bioset]
+  193 root         0 SW<  [bioset]
+  198 root         0 SW<  [bioset]
+  213 root         0 SW<  [deferwq]
+  241 root         0 SW   [kworker/0:2]
+  358 root      1176 S    /sbin/ubusd
+  361 root      1176 S    /bin/ash --login
+  542 root         0 SW<  [cfg80211]
+  748 root      1632 S    /sbin/netifd
+  791 root       896 S    /usr/bin/lightSensor-daemon
+  838 root      1176 S <  /usr/sbin/ntpd -n -N -S /usr/sbin/ntpd-hotplug -p 0.
+  915 dnsmasq   1040 S    /usr/sbin/dnsmasq -C /var/etc/dnsmasq.conf -k -x /va
+  991 root      1056 S    /usr/sbin/dropbear -F -P /var/run/dropbear.1.pid -p
+  998 root      1124 S    /usr/sbin/dropbear -F -P /var/run/dropbear.1.pid -p
+  999 root      1180 S    -ash
+ 1024 root      4640 S    /usr/bin/mjpg_streamer --input input_uvc.so --device
+ 1743 root      1176 R    ps
+
+
+
+

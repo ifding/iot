@@ -1,0 +1,9 @@
+Package: collectd-mod-cpu
+Version: 5.7.1-6
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: ramips
+Installed-Size: 4922
+Description:  CPU input plugin

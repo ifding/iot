@@ -25,6 +25,7 @@
 
 ### [Firmware](./firmware/README.md)
 * [introduction-tftp](firmware/introduction-tftp.md)
+* [openwrt for dcs-934l](./dcs-934l)
 
 ### Protocols
 * [MQTT](./mqtt/README.md)

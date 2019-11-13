@@ -1,0 +1,25 @@
+Mem: 17972K used, 10968K free, 52K shrd, 0K buff, 9708K cached
+CPU:   0% usr   1% sys   0% nic  97% idle   0% io   0% irq   1% sirq
+Load average: 0.03 0.06 0.01 1/35 2065
+  PID  PPID USER     STAT   VSZ %VSZ %CPU COMMAND
+ 1024     1 root     S     4640  16%   2% /usr/bin/mjpg_streamer --input input_
+  241     2 root     SW       0   0%   0% [kworker/0:2]
+ 2065   999 root     R     1180   4%   0% top
+  998   991 root     S     1124   4%   0% /usr/sbin/dropbear -F -P /var/run/dro
+  748     1 root     S     1632   6%   0% /sbin/netifd
+    1     0 root     S     1528   5%   0% /sbin/procd
+  999   998 root     S     1180   4%   0% -ash
+  838     1 root     S <   1176   4%   0% /usr/sbin/ntpd -n -N -S /usr/sbin/ntp
+  358     1 root     S     1176   4%   0% /sbin/ubusd
+  361     1 root     S     1176   4%   0% /bin/ash --login
+  991     1 root     S     1056   4%   0% /usr/sbin/dropbear -F -P /var/run/dro
+  915     1 dnsmasq  S     1040   4%   0% /usr/sbin/dnsmasq -C /var/etc/dnsmasq
+  791     1 root     S      896   3%   0% /usr/bin/lightSensor-daemon
+    3     2 root     SW       0   0%   0% [ksoftirqd/0]
+   38     2 root     SW       0   0%   0% [kworker/u2:2]
+    7     2 root     SW       0   0%   0% [kworker/u2:1]
+  129     2 root     SW       0   0%   0% [fsnotify_mark]
+   73     2 root     SW       0   0%   0% [kworker/0:1]
+   71     2 root     SW<      0   0%   0% [kblockd]
+  213     2 root     SW<      0   0%   0% [deferwq]
+

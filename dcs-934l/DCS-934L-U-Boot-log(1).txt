@@ -1,0 +1,367 @@
+U-Boot 1.1.3
+
+Board: Ralink APSoC DRAM:  32 MB
+relocate_code Pointer at: 81fb0000
+spi_wait_nsec: 42
+spi device id: c2 20 16 c2 20 (2016c220)
+find flash: MX25L3205D
+raspi_read: from:30000 len:1000
+.*** Warning - bad CRC, using default environment
+
+============================================
+Ralink UBoot Version: 4.1.2.0
+--------------------------------------------
+ASIC 5350_MP (Port5<->None)
+DRAM_CONF_FROM: Boot-Strapping
+DRAM_TYPE: SDRAM
+DRAM_SIZE: 256 Mbits
+DRAM_WIDTH: 16 bits
+DRAM_TOTAL_WIDTH: 16 bits
+TOTAL_MEMORY_SIZE: 32 MBytes
+Flash component: SPI Flash
+============================================
+icache: sets:256, ways:4, linesz:32 ,total:32768
+dcache: sets:128, ways:4, linesz:32 ,total:16384
+
+ ##### The CPU freq = 360 MHZ ####
+ estimate memory size =32 Mbytes
+
+Signature: DCS-930 B1         934L  Release 1.11 (2011-05-31)
+
+
+Please choose the operation:
+   1: Load system code to SDRAM via TFTP.
+   2: Load system code then write to Flash via TFTP.
+   3: Boot system code via Flash (default).
+   4: Entr boot command line interface.
+   7: Load Boot Loader code then write to Flash via Serial.
+   9: Load Boot Loader code then write to Flash via TFTP.                     0
+
+3: System Boot system code via Flash.
+## Booting image at bc050000 ...
+raspi_read: from:50000 len:40
+.   Image Name:   Linux Kernel Image
+   Image Type:   MIPS Linux Kernel Image (lzma compressed)
+   Data Size:    3811177 Bytes =  3.6 MB
+   Load Address: 80000000
+   Entry Point:  8038b000
+raspi_read: from:50040 len:3a2769
+...........................................................   Verifying Checksum ... OK
+   Uncompressing Kernel Image ... OK
+No initrd
+## Transferring control to Linux (at address 8038b000) ...
+## Giving linux memsize in MB, 32
+
+Starting kernel ...
+
+
+LINUX started...
+
+ THIS IS ASIC
+Linux version 2.6.21 (andy@ipcam-linux.alphanetworks.com) (gcc version 3.4.2) #474 Fri Sep 9 22:20:18 CST 2016
+
+ The CPU frequency set to 360 MHz
+CPU revision is: 0001964c
+Determined physical RAM map:
+ memory: 02000000 @ 00000000 (usable)
+Initrd not found or empty - disabling initrd
+Built 1 zonelists.  Total pages: 8128
+Kernel command line: console=ttyS1,57600n8 root=/dev/ram0
+Primary instruction cache 32kB, physically tagged, 4-way, linesize 32 bytes.
+Primary data cache 16kB, 4-way, linesize 32 bytes.
+Synthesized TLB refill handler (20 instructions).
+Synthesized TLB load handler fastpath (32 instructions).
+Synthesized TLB store handler fastpath (32 instructions).
+Synthesized TLB modify handler fastpath (31 instructions).
+Cache parity protection disabled
+cause = f0808054, status = 11000000
+PID hash table entries: 128 (order: 7, 512 bytes)
+calculating r4koff... 0015f900(1440000)
+CPU frequency 360.00 MHz
+Using 180.000 MHz high precision timer.
+Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Memory: 24820k/32768k available (3172k kernel code, 7948k reserved, 451k data, 2696k init, 0k highmem)
+Mount-cache hash table entries: 512
+NET: Registered protocol family 16
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+
+Time: MIPS clocksource has been installed.
+******************** CONFIG_RT2880_ROOTFS_IN_RAM
+******************** CONFIG_RT2880_FLASH_4M
+deice id : c2 20 16 c2 20 (2016c220)
+MX25L3205D(c2 2016c220) (4096 Kbytes)
+mtd .name = raspi, .size = 0x00400000 (4M) .erasesize = 0x00010000 (64K) .numeraseregions = 0
+Creating 5 MTD partitions on "raspi":
+0x00000000-0x00400000 : "ALL"
+0x00000000-0x00030000 : "Bootloader"
+0x00030000-0x00040000 : "Config"
+0x00040000-0x00050000 : "Factory"
+0x00050000-0x00400000 : "Kernel"
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+TCP: Hash tables configured (established 1024 bind 1024)
+TCP reno registered
+detected lzma initramfs
+detected lzma initramfs
+initramfs: LZMA lc=3,lp=0,pb=2,dictSize=1048576,origSize=8439808
+LZMA initramfs by Ming-Ching Tiew <mctiew@yahoo.com>.................................................................................................................................RT3xxx EHCI/OHCI init.
+io scheduler noop registered (default)
+light sensor cfg = 4
+Ralink gpio driver initialized
+Enable Ralink GDMA Controller Module
+GDMA IP Version=2
+Serial: 8250/16550 driver $Revision: #1 $ 2 ports, IRQ sharing disabled
+serial8250: ttyS0 at MMIO 0xb0000500 (irq = 37) is a 16550A
+serial8250: ttyS1 at MMIO 0xb0000c00 (irq = 12) is a 16550A
+RAMDISK driver initialized: 16 RAM disks of 8192K size 1024 blocksize
+rdm_major = 253
+Ralink APSoC Ethernet Driver Initilization. v3.0  256 rx/tx descriptors allocated, mtu = 1500!
+***** rtmp_nv_init_for_Startup() *****
+EEPROM[0x44] -> 0x06 (DCS-930L/DCS-932L/DCS-934L)
+***** Init RF/MAC data from flash memory *****
+LAN MAC: B0 C5 54 21 09 74
+GMAC1_MAC_ADRH -- : 0x0000b0c5
+GMAC1_MAC_ADRL -- : 0x54210974
+PROC INIT OK!
+PPP generic driver version 2.4.2
+PPP Deflate Compression module registered
+PPP BSD Compression module registered
+NET: Registered protocol family 24
+
+
+=== pAd = c0000000, size = 535856 ===
+
+<-- RTMPAllocAdapterBlock, Status=0
+Wlan STA Mode
+Linux video capture interface: v2.00
+usbcore: registered new interface driver uvcvideo
+USB Video Class driver (SVN r209)
+block2mtd: version $Revision: #1 $
+rt3xxx-ehci rt3xxx-ehci: Ralink EHCI Host Controller
+rt3xxx-ehci rt3xxx-ehci: new USB bus registered, assigned bus number 1
+rt3xxx-ehci rt3xxx-ehci: irq 18, io mem 0x101c0000
+rt3xxx-ehci rt3xxx-ehci: USB 0.0 started, EHCI 1.00, driver 10 Dec 2004
+usb usb1: configuration #1 chosen from 1 choice
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+rt3xxx-ohci rt3xxx-ohci: RT3xxx OHCI Controller
+rt3xxx-ohci rt3xxx-ohci: new USB bus registered, assigned bus number 2
+rt3xxx-ohci rt3xxx-ohci: irq 18, io mem 0x101c1000
+usb usb2: configuration #1 chosen from 1 choice
+hub 2-0:1.0: USB hub found
+hub 2-0:1.0: 1 port detected
+Advanced Linux Sound Architecture Driver Version 1.0.14rc3 (Wed Mar 14 07:25:50 2007 UTC).
+usb 2-1: new full speed USB device using rt3xxx-ohci and address 2
+usb 2-1: configuration #1 chosen from 1 choice
+Found format MJPEG.
+- 640x480 (30.0 fps)
+- 320x240 (30.0 fps)
+- 160x120 (30.0 fps)
+uvcvideo: Found UVC 1.00 device <unnamed> (1b3b:2970)
+uvcvideo: UVC non compliance - GET_DEF(PROBE) not supported. Enabling workaround.
+usbcore: registered new interface driver snd-usb-audio
+ALSA device list:
+  #0: USB Device 0x1b3b:0x2970 at usb-rt3xxx-ohci-1, full speed
+nf_conntrack version 0.5.0 (256 buckets, 2048 max)
+ip_tables: (C) 2000-2006 Netfilter Core Team, Type=Restricted Cone
+TCP cubic registered
+NET: Registered protocol family 1
+NET: Registered protocol family 17
+Freeing unused kernel memory: 2696k freed
+init started: BusyBox v1.12.1 (2016-09-09 22:15:45 CST)
+startAlgorithmics/MIPS FPU Emulator v1.5
+ing pid 637, tty '': '/etc_ro/rcS'
+devpts: called with bogus options
+mount: mounting none on /proc/bus/usb failed: No such file or directory
+Welcome to
+     _______  _______  ___     __  ____   _  _   ___
+    |  ___  \|   __  ||   |   |__||    \ | || | /  /
+    | |___| ||  |__| ||   |__  __ |     \| || |/  /
+    |   _   /|   _   ||      ||  || |\     ||     \
+    |__| \__\|__| |__||______||__||_| \____||_|\___\
+
+                     =System Architecture Department=
+
+uid: iJ0SmrBhZlVaRpSb
+Fri Jan  1 00:00:00 UTC 2016
+light sensor cfg = 4
+*****************
+*  INTERNET.SH  *
+*****************
+Password for 'admin' changed
+telnetd/ftpd close !!!
+save to header file : /var/run/audio.header
+[SetVolume]: min=0, max=254, set=163
+pcmcmd: sample rate = 8000Hz
+pcmcmd: skip=(500 ms), average=(1000 ms)
+uvc_stream: Lens model (DCS930)
+Raeth v3.0 (Tasklet,SkbRecycle)
+
+phy_tx_ring = 0x01411000, tx_ring = 0xa1411000
+
+phy_rx_ring0 = 0x01412000, rx_ring0 = 0xa1412000
+GMAC1_MAC_ADRH -- : 0x0000b0c5
+GMAC1_MAC_ADRL -- : 0x54210974
+RT305x_ESW: Link Status Changed
+
+Lan Link Down
+led_operation = 0
+@@@ LAN Link Down - nvram_daemon_loop_time =***** Wlan MainVirtualIF_open Jiffies = 2233 *****
+ 6
+RX DESC a1426000  size = 2048
+<-- RTMPAllocTxRxRingMemory, Status=0
+SSID: dlink
+Cfg PhyMode = 9
+pAd->ed_ap_scaned = 5
+pAd->ed_current_ch_aps = 1
+pAd->ed_rssi_threshold = -100
+pAd->ed_threshold = 90
+pAd->false_cca_threshold = 180
+pAd->ed_block_tx_threshold = 2
+Key1Str is Invalid key length(0) or Type(1)
+Key2Str is Invalid key length(0) or Type(1)
+Key3Str is Invalid key length(0) or Type(1)
+Key4Str is Invalid key length(0) or Type(1)
+HT_BW = BW_20
+1. Phy Mode = 9
+2. Phy Mode = 9
+WLAN MAC: B0 C5 54 21 09 74
+*****> TxStream = 1, RxStream = 1
+Country Region = 80
+3. Phy Mode = 9
+AntCfgInit: primary/secondary ant 0/1
+RT5350_InitDesiredTSSITable : slope of TSSI is 0.85
+Channel 1 TSSI delta=-1
+Channel 2 TSSI delta=0
+Channel 3 TSSI delta=0
+Channel 4 TSSI delta=0
+Channel 5 TSSI delta=0
+Channel 6 TSSI delta=0
+Channel 7 TSSI delta=0
+Channel 8 TSSI delta=0
+Channel 9 TSSI delta=0
+Channel 10 TSSI delta=0
+Channel 11 TSSI delta=0
+Channel 12 TSSI delta=0
+Channel 13 TSSI delta=0
+Channel 14 TSSI delta=0
+TSSIBase(0x6E) = 33, TxPowerOFDM54 = 6
+desiredTSSIOverHT[0] = 1115778
+desiredTSSIOverHT40[0] = 1115778
+desiredTSSIOverHT[1] = 1115778
+desiredTSSIOverHT40[1] = 1115778
+desiredTSSIOverHT[2] = 1115778
+desiredTSSIOverHT40[2] = 1115778
+desiredTSSIOverHT[3] = 1115778
+desiredTSSIOverHT40[3] = 1115778
+desiredTSSIOverHT[4] = 754341
+desiredTSSIOverHT40[4] = 754341
+desiredTSSIOverHT[5] = 754341
+desiredTSSIOverHT40[5] = 620262
+desiredTSSIOverHT[6] = 510000
+desiredTSSIOverHT40[6] = 419322
+desiredTSSIOverHT[7] = 510000
+desiredTSSIOverHT40[7] = 419322
+MCS Set = ff 00 00 00 00
+<==== rt28xx_init, Status=0
+0x1300 = 00064300
+device ra0 entered promiscuous mode
+device eth2 entered promiscuous mode
+*** begin lan.sh ***
+br0: port 2(eth2) entering learning state
+route: ioctl 0x890c failed: No such process
+light sensor changed to Day
+Test rc count
+RT305x_ESW: Link Status Changed
+
+Lan Link Up
+Speed: 1, Duplex: 1
+br0: topology change detected, propagating
+br0: port 2(eth2) entering forwarding state
+rc count = 1
+hw id = 0
+ALSA-pcm :<overrun occurred>
+led_operation = 0
+@@@ LAN Link Up - nvram_daemon_loop_time = 7
+uvc_stream: hw id = (0)
+alphapd: Startup!
+total files=73
+total file types=3
+ext=js      , num=3
+ext=css     , num=1
+ext=htm     , num=69
+/sbin/lan.sh: line 75: tftpupload: not found
+alphapd: Running at address 192.168.0.20:80
+from lan.sh
+rm: cannot remove '/tmp/provision.conf': No such file or directory
+opt.local stop ok.
+rm: cannot remove '/tmp/provision.conf': No such file or directory
+opt.local stop ok.
+opt.local start ok.
+rm /tmp/mydlink/*.*
+rm: cannot remove '/tmp/mydlink/*.*': No such file or directory
+udhcpc (v1.12.1) started
+*** end lan.sh ***
+
+***** g_wl_interface = ra0 ******
+
+swing: Pan-Tilt function not support
+switch reg write offset=14, value=5555
+switch reg write offset=40, value=1001
+switch reg write offset=44, value=1001
+switch reg write offset=48, value=1001
+switch reg write offset=4c, value=1
+switch reg write offset=50, value=2001
+switch reg write offset=70, value=ffffffff
+switch reg write offset=98, value=7f7f
+switch reg write offset=e4, value=7f
+************************
+*  END OF INTERNET.SH  *
+************************
+starting pid 858, tty '/dev/ttyS1': '/bin/login'
+(none) login: admin
+Password:
+Jan  1 00:00:15 login[858]: root login on 'ttyS1'
+
+
+BusyBox v1.12.1 (2016-09-09 22:15:45 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+# ls
+bin      sys      mnt      init     etc      var      mydlink  usr
+media    home     dev      sbin     tmp      lib      etc_ro   proc
+# --- Boot Code Signature ---
+Signature: DCS-930 B1         934L  Release 1.11 (2011-05-31)
+===== DCS-934L v1.05 build 4 (2016-09-09) =====
+
+# system ready!
+rm: cannot remove '/tmp/provision.conf': No such file or directory
+opt.local stop ok.
+rm: cannot remove '/tmp/provision.conf': No such file or directory
+opt.local stop ok.
+opt.local start ok.
+rm /tmp/mydlink/*.*
+rm: cannot remove '/tmp/mydlink/*.*': No such file or directory
+
+start_DST == 0
+
+# start zcip ...
+init br0
+config br0 169.254.102.23
+
+# alphapd: now in the child process(2196).
+
+***New connection PID 2196 ***
+alphapd: now in the child process(2212).
+
+***New connection PID 2212 ***
+alphapd: child(/bin/ipush) exited, status=0
+alphapd: child(/bin/ipush) exited, status=0
+
+# printenv ipaddr
+-sh: printenv: not found
